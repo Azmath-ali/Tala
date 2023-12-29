@@ -1,0 +1,1114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #D6CDC4;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: #222025;
+}
+
+
+#menu{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: -100%;
+    z-index: 999999;
+    background-color: bisque;
+
+    transition: all cubic-bezier(0.25, 0.46, 0.45, 0.94) 1.5s;
+}
+
+#nav1{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family:'Attila Sans Uniform';
+    padding: 5vw;
+}
+
+#nav1 h2{
+    color: #222025;
+
+
+}
+
+#nav1 i{
+    color: #222025;
+    font-size: 3vw;
+    cursor: pointer;;
+}
+
+
+#menu h1{
+    font-size: 14vw;
+    font-family:'Attila Sans Uniform';
+    color: #222025;
+    margin-left:5vw ;
+    margin-top:2vw ;
+    margin-bottom: 10vw;
+
+}
+
+#menu h3{
+    font-size: 2vw;
+    font-family:'Attila Sans Uniform';
+    color: #222025;
+    margin-left:5vw ;
+    margin-top:2vw ;
+    transition: all linear .5s;
+
+}
+
+#menu a h3{
+    text-decoration: none;
+}
+
+
+
+
+/* MAIN. */
+
+#main{
+    background-color: #222025;
+    overflow: hidden;
+    position: relative;
+}
+
+#page1{
+    width: 100vw;
+    height: 80vh;
+    background-color: red;
+    background-color: #222025;
+    position: relative; 
+    /* overflow: hidden; */
+
+}
+
+#nav{
+    width: 100vw;
+    /* height: 5vw; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #222025;
+    /* background-color: red; */
+    padding: 4vw 5vw;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) .5s;
+}
+#nav h3{
+    font-size: 1.2vw;
+    letter-spacing: .6vw;
+    font-family:'Attila Sans Uniform';
+}
+
+#nav-bar{
+    width: 13%;
+    display: flex;
+    align-items: center;
+    gap: 4vw;
+    /* background-color: red; */
+}
+
+#nav-bar h4{
+    font-family:'Attila Sans Uniform';
+    font-size: 1vw;
+}
+#nav-bar i{
+    font-size: 1.3vw;
+    cursor: pointer;
+}
+
+
+
+#page1 h1{
+    font-size: 14vw;
+    letter-spacing: .5vw;
+    font-family:'Attila Sans Uniform';
+    margin-left: 4vw;
+    margin-top: 3vw;
+    position: relative;
+    /* background-color: red; */
+    /* overflow: hidden; */
+
+}
+
+#page1 h1::after{
+    content: "©";
+    font-size: 6vw;
+    position: absolute;
+}
+
+
+#page1 h2{
+    width: 50%;
+    font-size: 3.1vw;
+    line-height: 4vw;
+    font-weight: 100;
+    font-family:'Plain Light';
+    margin-left: -2vw;
+    margin-top: 6vw;
+    /* background-color: red;  */
+}
+
+#page1 h2:nth-child(3){
+    text-align: end;
+}
+
+#page1 h5{
+    position: absolute;
+    right: 20%;
+    bottom: 30%;
+    font-size: .8vw;
+}
+
+
+
+#page2{
+    width: 100vw;
+    height: 100vh;
+    /* padding: 5vw; */
+}
+#page2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transform:  scale(.8);
+    opacity: 0;
+    border: 1px solid rgba(245, 222, 179, 0.56);
+    border-radius: 2vw;
+    /* transition: all linear .3s; */
+}
+
+
+
+#page3{
+    width: 100vw;
+    height: fit-content;
+    /* background-color: red; */
+    padding: 8vw 0;
+}
+
+#page3 h2{
+    width: 50%;
+    font-size: 5vw;
+    line-height: 4.9vw;
+    font-weight: 500;
+    /* background-color: red; */
+    /* font-family:'Stabil Grotesk'; */
+    /* color: white; */
+    color:white;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+#page3 h2 span{
+    font-family: 'Domaine Display';
+    font-weight: 100;
+}
+
+
+
+#page4{
+    width: 100vw;
+    height: 80vh;
+    position: relative;
+    /* background-color: red; */
+}
+
+
+#line{
+    width: 0.5%;
+    height: .1vw;
+    border-radius: 1vw;
+    border: 1px dotted red;
+    background-color: #fff;
+    margin-bottom: 7vw;
+    margin-left: 1vw;
+    /* position: fixed; */
+}
+
+
+
+#fruits1{
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vw 5vw;
+    cursor: pointer;
+
+}
+
+#fruits1 h1{
+    font-size:4vw;
+    width: 50%;
+    text-align: center;
+    font-family:'Attila Sans Uniform';
+    /* background-color: red; */
+}
+#fruits1 h2 img{
+    width: 7vw;
+    display: none;
+}
+
+#fruits2{
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vw 5vw;
+    cursor: pointer;
+
+}
+
+#fruits2 h1{
+    font-size:4vw;
+    width: 50%;
+    text-align: center;
+    font-family:'Attila Sans Uniform';
+    /* background-color: red; */
+}
+#fruits2 h2 img{
+    width: 7vw;
+    display: none;
+}
+
+
+
+#fruits3{
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vw 5vw;
+    cursor: pointer;
+
+}
+
+#fruits3 h1{
+    font-size:4vw;
+    width: 50%;
+    text-align: center;
+    font-family:'Attila Sans Uniform';
+    /* background-color: red; */
+}
+#fruits3 h2 img{
+    width: 7vw;
+    display: none;
+}
+
+
+
+
+
+
+
+#page5{
+    width: 100vw;
+    height: 90vh;
+    overflow: hidden;
+    /* padding: 2vw 0; */
+    /* background-color: red; */
+}
+
+#page5 h1{
+    font-size: 8vw;
+    font-family:'Attila Sans Uniform';
+    margin-left: 5vw;
+}
+
+#container{
+    height: 22%;
+    /* width: 100%; */
+    /* background-color: red; */
+    margin-top: 7vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+   
+}
+
+#container h2{
+    width: 70%;
+    height: 100%;
+    /* background-color: yellow; */
+    font-size: 4vw;
+    font-family:'Attila Sans Uniform';
+    padding: 2vw 5vw ;
+    border-top: 2px dotted white;
+    border-bottom: 2px dotted white;
+
+}
+
+#container h3{
+    width: 30%;
+    height: 100%;
+    /* background-color: blue; */
+    font-size: 1.5vw;
+    line-height: 2vw;
+    font-family:'Attila Sans Uniform';
+    padding: 2vw 3vw ;
+    border-top: 2px dotted white;
+    border-bottom: 2px dotted white;
+    border-left: 2px  dotted white;
+
+
+}
+
+
+
+/* PAGE-6. */
+
+#page6{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://assets-global.website-files.com/61defec4a021d8fe954c11bd/61defec4a021d83ede4c11f8_stars.gif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 15vw;
+    background-color: red;
+}
+
+
+#page6 h1{
+    font-size: 5vw;
+    font-family:'Stabil Grotesk';
+    font-weight: 200;
+    text-align: center;
+}
+
+#page6 h1 span{
+    font-family: 'Domaine Display';
+}
+
+#page6 h3{
+    /* background-color: red; */
+    font-size: 1vw;
+    /* text-align: center; */
+    margin-top: 3vw;
+    margin-left: 25vw;
+    font-family:'Stabil Grotesk';
+}
+
+#page6 img{
+    /* width: 5%; */
+    position: relative;
+    left: 48%;
+    top: 20%;
+    /* transform:rotate(360deg);
+    animation-name: anime;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse; */
+
+}
+/* 
+@keyframes anime {
+    100%{
+        transform: rotate(0);
+    }
+    0%{
+        transform:calc(rotate(360) - 100px);
+    }
+} */
+
+
+
+
+
+#page7{
+    margin-top: 5vw;
+    width: fit-content;
+    /* background-color: red; */
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 2vw 0;
+}
+
+#first{
+    font-size: 12vw;
+    font-family:'Attila Sans Uniform';
+    animation-name: identifier;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+}
+
+#second{
+    font-size: 12vw;
+    font-family:'Attila Sans Uniform';
+    animation-name: identifier;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: reverse;
+    
+}
+
+#first span{
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+    font-family:'Attila Sans Uniform';
+    animation-name: identifier;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+
+#second span{
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+    animation-name: identifier;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: reverse;
+}
+
+
+
+@keyframes identifier {
+    100%{
+        transform: translateX(0);
+    }
+    0%{
+        transform: translateX(-50%) ;
+    }
+}
+
+
+
+
+
+
+
+
+#page8{
+    width: 100vw;
+    height: 80vh;
+    /* background-color: red; */
+}
+
+#page8 h1{
+    margin-top: 10vw;
+    text-align: center;
+    font-size: 3vw;
+    font-family:'Attila Sans Uniform';
+    font-weight: 100;
+}
+
+#page8 h1 span{
+    font-family: 'Domaine Display';
+}
+
+#page8-cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: red; */
+    margin-top: 7vw
+}
+
+#left{
+    width: 20vw;
+    height: 20vw;
+    /* background-color: blue; */
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#left h2{
+    font-size: 3vw;
+    font-family:'Stabil Grotesk';
+    z-index: 9999;
+}
+
+#left img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    display: none;
+    transition: all linear .1s;
+}
+
+#right{
+    width: 20vw;
+    height: 20vw;
+    /* background-color: blue; */
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#right h2{
+    font-size: 3vw;
+    font-family:'Stabil Grotesk';
+    z-index: 99999;
+}
+
+
+#right img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    display: none;
+    transition: all linear .1s;
+}
+
+
+
+
+
+#page9{
+    width: 100vw;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#page9 h1{
+    font-size: 14vw;
+    letter-spacing: .5vw;
+    font-family:'Attila Sans Uniform';
+    margin-left: 4vw;
+    margin-top: 3vw;
+    position: relative;
+}
+
+#page9 a h1{
+    text-decoration:none;
+
+}
+
+#page9 h1::after{
+    content: "©";
+    font-size: 6vw;
+    position: absolute;
+}
+
+
+#email{
+    width: 30%;
+    height: 10vh;
+    /* background-color: blue; */
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    border-bottom: 2px dotted white;
+    padding-bottom: 1vw;
+}
+
+
+#email h3{
+    font-size: 2vw;
+    font-family:'Stabil Grotesk';
+}
+
+#email i{
+    font-size: 2vw;
+}
+
+
+
+
+/* FOOTER. */
+
+#footer{
+    width: 100vw;
+    height: 40vh;
+    margin-top: 10vw;
+    /* background-color: red; */
+}
+
+
+#footer-div{
+    width: 50%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 4vw;
+    border-bottom: 2px dotted rgba(255, 255, 255, 0.376);
+
+}
+
+#footer-div h3{
+    font-size: 1.5vw;
+    font-family:'Stabil Grotesk';
+
+
+}
+
+#footer-div i{
+    font-size: 2vw;
+
+}
+
+#footer-div:hover{
+    cursor: pointer;
+    border-bottom: 2px dotted rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* RESPONSIVE. */
+
+@media (max-width:600px) {
+
+    
+
+    #nav1{
+        padding: 7vw;
+    }
+
+  
+    #nav1 i{
+        font-size: 7vw;
+    }
+
+
+    #menu h1{
+        font-size: 24vw;
+        margin-top:12vw ;
+        margin-bottom: 20vw;
+
+    }
+
+    #menu h3{
+        font-size: 7vw;
+        margin-top:7vw ;
+
+    }
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+    #page1{
+        width: 100vw;
+        height: 60vh;
+        /* background-color: red; */
+    }
+
+    #nav{
+        padding: 10vw 5vw;
+    }
+    #nav h3{
+        font-size: 4.5vw;
+    }
+
+    #nav-bar{
+        width: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* background-color: red; */
+    }
+
+    #nav-bar h4{
+        font-family:'Attila Sans Uniform';
+        font-size: 3vw;
+    }
+    #nav-bar i{
+        font-size: 4vw;
+        cursor: pointer;
+    }
+
+
+
+    #page1 h1{
+        font-size: 28vw;
+        margin-top: 10vw;
+        position: relative;
+        /* background-color: red; */
+        /* overflow: hidden; */
+    }
+
+    #page1 h1::after{
+        content: "©";
+        font-size: 10vw;
+        position: absolute;
+        left: 85%;
+    }
+
+
+    #page1 h2{
+        width: 70%;
+        font-size: 7vw;
+        line-height: 8vw;
+        margin-left: -10vw;
+    }
+
+   
+
+    #page1 h5{
+        position: absolute;
+        right: 15%;
+        bottom: 2%;
+        font-size: 3vw;
+    }
+
+
+
+
+
+    #page3 h2{
+        width: 100%;
+        font-size: 12vw;
+        line-height: 12vw;
+    }
+
+
+
+
+
+        
+    #page4{
+        width: 100vw;
+        height: 50vh;
+        position: relative;
+        /* background-color: red; */
+    }
+
+
+    #line{
+        margin-top: 5vw;
+        margin-bottom: 10vw;
+        /* position: fixed; */
+    }
+
+
+    #fruits1{
+        padding: 4vw 5vw;
+
+    }
+
+    #fruits1 h1{
+        font-size:7vw;
+        /* background-color: red; */
+    }
+
+
+    #fruits1>img{
+        width: 5vw;
+        /* display: none; */
+    }
+
+    #fruits2{
+        padding: 4vw 5vw;
+
+    }
+
+
+    #fruits2 h1{
+        font-size:7vw;
+    }
+    #fruits2 img{
+        width: 5vw;
+        /* display: none; */
+    }
+
+
+
+    #fruits3{
+        padding: 4vw 5vw;
+    }
+
+    #fruits3 h1{
+        font-size:7vw;
+    }
+    #fruits3 img{
+        width: 5vw;
+        /* display: none; */
+    }
+   
+
+
+
+
+    #page5{
+        width: 100vw;
+        height: 85vh;
+        overflow: hidden;
+    }
+
+    #page5 h1{
+        width: 90%;
+        font-size: 15vw;
+        margin-left: 3vw;
+    }
+
+    #container{
+        height: 30%;
+        margin-top: 7vw;
+    }
+
+    #container h2{
+        width: 60%;
+        height: 100%;
+        font-size: 7vw;
+        padding: 5vw 4vw ;
+
+    }
+
+    #container h3{
+        width: 40%;
+        height: 100%;
+        font-size: 3.5vw;
+        line-height: 4vw;
+        padding: 12vw 3vw ;
+    }
+
+
+
+
+
+    #page6{
+        width: 100vw;
+        height: 50vh;
+        padding: 7vw 0;
+        /* background-color: red; */
+    }
+
+
+    #page6 h1{
+        width: 100%;
+        font-size: 8vw;
+    }
+
+  
+
+    #page6 h3{
+        font-size: 3vw;
+        margin-top: 10vw;
+        margin-left: 25vw;
+    }
+
+    #page6 img{
+        top: 5%;
+    }
+
+
+    
+
+
+    #page7{
+        margin-top: 10vw;
+        width: fit-content;
+        padding: 5vw 0;
+    }
+
+    #first{
+        font-size: 25vw;
+    }
+
+    #second{
+        font-size: 25vw;
+    }
+
+
+
+
+
+
+    #page8{
+        width: 100vw;
+        height: 50vh;
+        /* background-color: red; */
+    }
+
+    #page8 h1{
+        font-size: 7vw;
+    }
+
+    #page8-cont{
+        margin-top: 15vw
+    }
+
+    #left{
+        width: 40vw;
+        height: 40vw;
+        /* background-color: beige; */
+    }
+
+    #left h2{
+        font-size: 6vw;
+    }
+
+    #right{
+        width: 40vw;
+        height: 40vw;
+    }
+
+    #right h2{
+        font-size: 6vw;
+    }
+
+
+
+
+
+
+    #page9{
+        width: 100vw;
+        /* background-color: red; */
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #page9 h1{
+        font-size: 30vw;
+    }
+
+
+    #page9 h1::after{
+        content: "©";
+        font-size: 10vw;
+        position: absolute;
+        left: 95%;
+    }
+
+
+    #email{
+        width: 90%;
+        height: 10vh;
+        padding-bottom: 2vw;
+        margin-left: 2vw;
+    }
+
+
+    #email h3{
+        font-size: 5vw;
+        font-family:'Stabil Grotesk';
+    }
+
+    #email i{
+        font-size: 5vw;
+    }
+
+
+
+
+    #footer{
+        width: 100vw;
+        height: 55vh;
+        margin-top: 35vw;
+        /* background-color: red; */
+    }
+    
+    
+    #footer-div{
+        width: 90%;
+    }
+    
+    #footer-div h3{
+        font-size: 6vw;
+        margin-bottom: 2vw;
+    }
+    
+    #footer-div i{
+        font-size: 5vw;
+    
+    }
+
+    
+    
+
+
+
+
+
+
+
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
